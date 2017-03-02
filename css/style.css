@@ -1,0 +1,137 @@
+@charset "utf-8";
+/* CSS Document */
+body{ font-family:Verdana, Geneva, sans-serif;
+border:0;
+margin:0;
+background:#FOEFED;}
+.color-mix-1{ background:#272737; color:#FFF;}
+.color-mix-2{ background:#000; color:#00F;}
+.row-conteiner{
+	width:980px;
+	margin:auto;
+	text-align:center;
+}
+.row-full{ width:100%; float:none; margin:0px; padding:0px; clear: left !important;}
+.row-2col{ width:100%; padding:0; margin:0;display: flex; }
+.col-some{  flex: 1; /* additionally, equal width */}
+
+
+.col-1-2-1text-2img{
+	padding: 20px 25px 20px 25px;
+	max-width:600px;
+	text-align:justify;
+	text-align-last:left;
+	margin:auto;
+
+	}
+
+
+.col-2-2-1text-2img{
+	margin:auto;
+	text-align:center;
+	}
+	.col-2-2-1text-2img img{
+		width:100%;
+		height:100%;
+		background:none;
+	}
+.col-izquierda{ float:left;}
+.col-derecha{ float: right;}
+.col-12{ width:100%;}
+.col-11{ width:90%;}
+.col-10{ width:80%;}
+.col-9{ width:75%; }
+.col-8{ width:70%; }
+.col-7{ width:60%;}
+.col-6{ width:50%;}
+.col-5{ width:40%;}
+.col-4{ width:30%; float:left;}
+.col-3{ width:25%;}
+.col-2{ width:20%;}
+.col-1{ width:10%;}
+	.titulos{ width:100%; text-align:center; font-size:18px;}
+	.titulos h1 { text-align:center; font-size:18px;}
+.ver-mas{ width:100%; padding:35px 0 35px 0;  text-align:center; border-bottom-color:#000; border-bottom-style: solid; border-bottom-width:1px;}
+.ver-mas a{ padding:15px; text-align:left; border-color:#FFF; border-style: solid; border-width:1px; }
+.ver-mas a:hover{ color:#333; background:#FFF; color:}
+
+.col-img-fixed{    
+    background-image:  url(../image/img-300x150px.jpg);
+	background-position:0% 0%;
+    background-repeat: no-repeat;
+	 background-size:auto 100%;
+	background-color:#999;
+}
+.full-height{ height:100%;}
+.col-img-fixed-2{    
+    background-image:  url(../image/img2-300x150px.jpg);
+	background-position:0% 0%;
+    background-repeat: no-repeat;
+	 background-size: 100% auto;
+	background-color:#999;
+}
+
+.slide{	background-position:0% 0%;
+    background-repeat: no-repeat;
+	 background-size: 100% auto;
+	background-color:#999;}
+.slider1{    
+    background-image:  url(../image/home.jpg);
+
+}
+.slider2{    
+    background-image:  url(../image/online.jpg);
+
+}
+.slider3{    
+    background-image:  url(../image/universidad.jpg);
+
+}
+.slider4{    
+    background-image:  url(../image/vida-universitarias.jpg);
+
+}
+.slider {top:30px;padding-left:50px ;width:480px;height:120px;z-index:99;}
+.slider h2{width:480px; font-size:50px;color:#070d25;line-height:60px;}
+.slider p{ width:480px;padding:25px 0 25px 0; height:200px; font-size:18px;line-height:30px;}
+.slider-btn { width:100%; text-align:center; border-color:#FFF; border-style: solid; border-width:1px; background:#F00;  color:white; padding:25px; width:100%}
+.slider a:hover{ color:#333; background:#FFF; color:#666;}
+.pixel{ width:100%; height:auto;}
+.slider-container-full{ padding-top:35px;}
+.sliderc-conteiner-div{cursor:default;position:relative;top:0px;left:0px;width:1300px;height:1000px;overflow:hidden;}
+.logo{ float:left; padding:5px}
+.icon-comunity{ width:20px; height:auto; padding:0 }
+.telefono{ font-size:10px !important; padding:0; float:left;}
+.pixel-muero{ width:100%;}
+.punto-medicion-footer{ margin:0px; padding:0px; border:none; margin-top:-1px; }
+.footer{ background-color:#262638; color:#CCC; padding:5px; width:100%;
+ -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;}
+.hastaabajo{  
+   position:fixed !important;
+   left:0px;
+   bottom:0px;
+   height:30px;
+}
+
+.menu-fixed-down{
+	
+	}
+	
+.container-layout{ 
+	width:980px;
+	margin:auto;
+}
+.post-row{ padding-top:80px; padding-bottom:15px; margin-bottom:25px;}
+.post{ text-align:justify; text-align-last:left; font-size:14px; color:#333;}
+.post h1{ font-size:18px; color:#F60; padding:10px; border-bottom-color:#F60; border-bottom-style:outset; border-bottom-width:1px;  }
+.post img{ float:left; margin:12px; 20px 20px 0; max-width:30%; height:auto; }
+
+.post p{ font-size:16px; color:#666; -webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2; }
+.post p:first-of-type{ font-size:24px; color:#930;-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1; }
+.item-new{ padding: 15px; }
